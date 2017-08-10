@@ -43,6 +43,7 @@ Note that, the self-contained `gym_torcs.py` is modified from [Gym-Torcs](https:
 ## Results 
 
 After Episode 1, the car crashes after 315 steps. 
+
 ![](http://i.imgur.com/YfqFXQZ.gif)
 
 <!---
