@@ -1,0 +1,6 @@
+__pycache__
+model.npz
+_tmp.npy
+*.pyc
+*.txt
+image/
