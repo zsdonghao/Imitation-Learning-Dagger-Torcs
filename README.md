@@ -33,17 +33,16 @@ This should result that Torcs keeps a blue screen with several text information.
 
 
 ## Usage
-Make sure everything above work well and run:
+Make sure everything above work well and then run:
 
 - `python dagger.py`
 
-It will start a Torcs server at the beginning of every episode, and end when it crashs or the speed is too low.
+It will start a Torcs server at the beginning of every episode, and terminate the server when the car crashs or the speed is too low.
 Note that, the self-contained `gym_torcs.py` is modified from [Gym-Torcs](https://github.com/ugo-nama-kun/gym_torcs), you can try different settings (like default speed, terminated speed) by modifying it.
 
 ## Results 
 
-After Episode 1, the car crashes after 315 steps (unfixed value).
-
+After Episode 1, the car crashes after 315 steps. 
 ![](http://i.imgur.com/YfqFXQZ.gif)
 
 <!---
@@ -59,9 +58,12 @@ After Episode 3, crashes after 395 steps
 After Episode 4, the car does not crash anymore: [gif](http://i.imgur.com/pKeVxLY.gif).
 -->
 
-After Episode 3 (unfixed value), the car does not crash anymore !!!
+After Episode 3, the car does not crash anymore !!!
 
 ![](http://i.imgur.com/doz8U0z.gif)
+
+The number of steps and episodes might vary depending on the parameters initialization.
+
 
 ENJOY !
 
